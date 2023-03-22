@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826f108d0c8518d478754b90a578a1bc, type: 3}
+  m_Name: Level Holder
+  m_EditorClassIdentifier: 
+  PremadeLevels:
+  - Level: 1
+    LevelPrefab: {fileID: 8358023751450129612, guid: 2363d4a03574ce54a8bc0086ac660682, type: 3}
+    ZEnd: 160
+  - Level: 5
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 15
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 25
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 35
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 45
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 55
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 65
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 75
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 85
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 95
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  - Level: 105
+    LevelPrefab: {fileID: 5208033131147047489, guid: d7c35602c028f5941a62be6bc153d2dc, type: 3}
+    ZEnd: 190
+  SetPieces:
+  - {fileID: 11400000, guid: 1f70e92e6e12e9c4b8626b93587ef9a1, type: 2}
+  - {fileID: 11400000, guid: 7de47c2f29c16b1409aab138f23897a3, type: 2}
+  - {fileID: 11400000, guid: d46dfa1a5536aca4897579384fba1507, type: 2}
+  - {fileID: 11400000, guid: 66238a351b569de4c91b61c2c76331dc, type: 2}
+  - {fileID: 11400000, guid: ec677fad558e8454ba6e950b4067e5cc, type: 2}
+  - {fileID: 11400000, guid: f8f5d2c474debbb4f8ae89ce5b809cce, type: 2}
+  - {fileID: 11400000, guid: cc0cb1f8353531f4f81f79c60ee069be, type: 2}
+  - {fileID: 11400000, guid: 2256a3e0e51c73246bf7c1e0196e1da2, type: 2}
+  - {fileID: 11400000, guid: 1c9ed45d68cec714fa1dc7601600120f, type: 2}
+  - {fileID: 11400000, guid: 863c72e00f2b2b242a87be1c7b0137d7, type: 2}
+  - {fileID: 11400000, guid: 541b508587b7016489bf626fa79cb5ea, type: 2}
+  - {fileID: 11400000, guid: ccd3cbb5f06bc4f44948da579b42115d, type: 2}
+  - {fileID: 11400000, guid: 4836726e8ea0a6344bb3321e7999b90e, type: 2}
+  - {fileID: 11400000, guid: 4b0e6b4bb7fe4e945a725608585a3ec4, type: 2}
+  - {fileID: 11400000, guid: eb06784284158424eb51eb182c348204, type: 2}
+  - {fileID: 11400000, guid: 98278a69876be76419abe01e7e406605, type: 2}
+  - {fileID: 11400000, guid: 7cb59ea54747f07468bd7b36eb43b788, type: 2}
+  - {fileID: 11400000, guid: 72954145e5f7ab54aa3a69f0ab45271a, type: 2}
+  - {fileID: 11400000, guid: 915b7b02c6c25f44fba35434a8e98da0, type: 2}
+  - {fileID: 11400000, guid: e43d90793851dc049969f0a3454f8a42, type: 2}
+  - {fileID: 11400000, guid: 7a2aaaef39133bb4b9b9a1076ad52823, type: 2}
+  - {fileID: 11400000, guid: 537c0325a58f6aa4488f1409a59cd1ae, type: 2}
+  - {fileID: 11400000, guid: c7094e1918907f6469b3c0cdc272d29d, type: 2}
+  - {fileID: 11400000, guid: 25e7ac0b94f5f71488bb2815d13f7247, type: 2}
+  - {fileID: 11400000, guid: 5f2175a2043ecbd4698efe11c0e3651c, type: 2}
+  - {fileID: 11400000, guid: aeb782aea5fb9414bb19f78101a958c7, type: 2}
+  - {fileID: 11400000, guid: ca52aabbf07cd1845a519b0bd8bc956b, type: 2}
+  - {fileID: 11400000, guid: b2cdcca8719ea274f873bc2ca0c98f36, type: 2}
+  - {fileID: 11400000, guid: 4091a3d1334d5464d8d1ac9c21453f83, type: 2}

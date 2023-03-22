@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5199084176334799639
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5199084176334799637}
+  - component: {fileID: 5199084176334799638}
+  m_Layer: 0
+  m_Name: Level Creator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &5199084176334799637
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5199084176334799639}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5199084176334799638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5199084176334799639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cd6a25e68fb86945b5d5eb52bc6fe08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentLevel: {fileID: 11400000, guid: 5c08bc678030f0f41b973776c1a11d07, type: 2}
+  _levelsData: {fileID: 11400000, guid: 70a80fdc3796f124ebbfa269ef7a588d, type: 2}
+  _endPiecePrefab: {fileID: 4870173855255142044, guid: 70cfe65bf1a351a4a97b37a2e678674d, type: 3}
+  _startOffset: 45
+  _generateLevel: {fileID: 11400000, guid: 1b082a3cd8856874b9e35f00a5c01ece, type: 2}
+  _levelGenerated: {fileID: 11400000, guid: 2c29a6ff8a0b3794daa22b0640c202bb, type: 2}
+  _multiplierPrefab: {fileID: 7312256119449948323, guid: 07087d3fe40e7854c90e8c57e02e97f7, type: 3}
+  _multiplierEndPrefab: {fileID: 5147110204443275558, guid: a1383a95e93b2f84bb9e9b2e5e2c559b, type: 3}
+  _multiplierSize: 15
+  _multiplierMax: 40
+  _multiplierStep: 0.2
+  _enemyHolder: {fileID: 11400000, guid: a76d22415f2f11a479b8c79953b6b59f, type: 2}
+  _minEnemyCount: {fileID: 0}
+  _baseMaxLevel: {fileID: 11400000, guid: e29762af50c1cc749b2b3fbcfc2bc542, type: 2}
+  _maxLevelStep: {fileID: 11400000, guid: aeca137bfcefcd444bca12cf29a314e8, type: 2}
+  _beatablePercent: {fileID: 11400000, guid: 0e80e0234181d8340a849dc43d6c3ec6, type: 2}
+  _minLength: {fileID: 11400000, guid: e7e0c8d01ca49e946abaf75bf33dc0cf, type: 2}
+  _maxLength: {fileID: 11400000, guid: 64bad56e90b9d52408de2ec0e167cd09, type: 2}
+  _lengthStep: {fileID: 11400000, guid: 55df94e1b116f1148ba2d6a02fe92ba7, type: 2}
+  _currentLength: {fileID: 11400000, guid: 17b6bcf56e0fa644589bb7a602fa09e1, type: 2}
